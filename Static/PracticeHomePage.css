@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#Mission {
+    font: bold 40px tahoma;
+    color: orange;
+	padding: 60px;
+	
+}
+
+
+#Reason {
+    font: 40px tahoma;
+    color: black;
+}
+
+header, footer {
+    display: block;
+}
+
+body {
+    display: -webkit-box;
+    -webkit-box-pack: center; 
+    width: 100%;
+}
+
+#big_wrapper {
+    width: 1000px;
+    margin: 20px auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;    
+}
+
+#top_header {
+    background: cream;
+    border: 3px solid green;
+	width:100%;
+}
+
+#Navigationbar{
+	border:1px solid orange;
+	background: purple;
+	/*width: 1000px;*/
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+
+#top_menu{
+	padding: 20px;
+	width: 582px;
+}
+
+#top_menu li {
+    display: inline-block;
+    padding: 5px;
+    font: 25px tahoma;
+    list-style: none;
+}
+#Message {
+	background: #1f903f;
+	width: 100%;
+}
+
+#Why {
+    background: cream;
+	padding: 50px;
+}
+
+#Why li {
+	font: 30px tahoma; 
+}
+
+#the_footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid green;
+}
+
+.DRSapp_logo
+{
+	float: right;
+}
+.message_logo
+{
+	float:right;
+}
+.Showcase
+{
+	float: right;
+}
+
+.Access.filter
+{
+	
+	position: relative;
+    background: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+	
+}
+
+.filters h3 {
+    margin-left: 15%;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.filters h4 {
+    margin-left: 15%;
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 3px;
+}
+
+.popover {
+    visibility: hidden;
+    width: 100%;
+    border: 1px solid purple;
+    border-radius: 4px;
+    background: #FAFAFA;
+    padding-bottom: 15px;
+	/*height: 300px;*/
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /*max-height: 300px;*/
+}
+
+.popover::-webkit-scrollbar{
+    width: 0px;
+}
+
+.Access .popover {
+    padding: 10px 0;
+    margin-right: -5px;
+    margin-top: 0%;
+}
+
+.Access .popover ul{
+    margin: 0px;
+}
+
+.popover ul {
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.popover ul li{
+    padding: 4px;
+    padding-left: 10px;
+}
+
+.popover ul h2{
+    margin-top: 1.5%;
+    margin-bottom: 5%;
+    margin-left: 0px;
+}
+
+.Access:hover .popover{
+    visibility: visible;
+}

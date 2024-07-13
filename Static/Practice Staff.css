@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#Mission {
+    font: bold 30px tahoma;
+    color: black;
+}
+
+h1
+{
+	font: 40px tahoma;
+	color: purple;
+}
+
+h2 {
+    font: 30px tahoma;
+    color: purple;
+}
+
+p
+{
+	font: 20px tahoma;
+}
+
+header, footer {
+    display: block;
+}
+
+body {
+    display: -webkit-box;
+    -webkit-box-pack: center; 
+    width: 100%;
+}
+
+#big_wrapper {
+    width: 1000px;
+    margin: 20px auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-flex: 1;    
+}
+
+#top_header {
+    background: cream;
+    border: 3px solid green;
+	width:100%;
+}
+
+#top_menu {
+    border:1px solid orange;
+    background: purple;
+    color: white;
+	padding: 20px;
+}
+
+#top_menu li {
+    display: inline-block;
+    padding: 5px;
+    font: 17px tahoma;
+    list-style: none;
+}
+#Message {
+	background: #1f903f;
+	width: 100%;
+	padding:60px;
+}
+
+#Arsenic_Journey 
+{
+    background: cream;
+	margin: 50px;
+}
+
+#Arsenic Journey li 
+{
+	font: 30px tahoma; 
+	margin: 50px;
+}
+
+#the_footer 
+{
+    text-align: center;
+    margin: 20px;
+    border-top: 2px solid green;
+}
+
+.DRSapp_logo
+{
+	float: right;
+}
+.message_logo
+{
+	float:right;
+}
+
+#Value
+{
+	font: 20px tahoma;
+}
