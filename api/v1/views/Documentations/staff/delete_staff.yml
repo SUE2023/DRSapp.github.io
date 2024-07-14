@@ -1,0 +1,15 @@
+    deletes a staff based on id
+    ---
+    tags:
+      - Staffs
+    parameters:
+      - name: stasff_id
+        in: path
+        type: string
+        required: true
+        description: id of the staff
+    responses:
+      404:
+        description: Staff  not found!
+      200:
+        description: Request completed successfully

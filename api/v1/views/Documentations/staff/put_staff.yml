@@ -1,0 +1,21 @@
+    Updates a stasff based on id
+    ---
+    tags:
+      - Staff
+    parameters:
+      - name: staff_id
+        in: path
+        type: string
+        required: true
+        description: id of the staff
+      - name: update_request
+        in: body
+        required: true
+
+    responses:
+      404:
+        description: staff not found!
+      400:
+        description: Not a valid JSON
+      200:
+        description: Request completed successfully

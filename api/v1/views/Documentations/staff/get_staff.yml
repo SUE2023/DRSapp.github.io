@@ -1,0 +1,32 @@
+get a specific staff  based on the department_id
+---
+tags:
+  - Staff
+parameters:
+  - name: staff_id
+    in: path
+    type: string
+    required: true
+    description: The uniqe id of the staff
+responses:
+  200:
+    description: Successful request
+    schema:
+      properties:
+        __class__:
+          type: string
+        created_at:
+          type: string
+          description: time of creation of the instance
+        updated_at:
+           type: string
+           description: time of last update of the instance
+        id:
+          type: string
+          description: The uuid of the instance
+        state_id:
+           type: string
+           description: uuid of the staff's state
+        name:
+           type: string
+           description: staff name
