@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """ Index """
-from models.directors import Directors
-from models.boards import Boards
+from models.meetings import Meeting
+from models.directors import Director
+from models.boards import Board
 from models.staff import Staff
 from models.user import User
 from models import storage

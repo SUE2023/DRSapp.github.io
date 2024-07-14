@@ -17,7 +17,7 @@ class User(BaseModel, Base if STORAGE_TYPE == "db" else object):
     if STORAGE_TYPE == "db":
         __tablename__ = 'user'
         name = Column(String(128), nullable=False)
-        department = column(String(128), nullable=False)
+        department = Column(String(128), nullable=False)
         # Foreign key to staff
         staff_id = Column(String(60), ForeignKey('staff.id'), nullable=True)
         first_name = Column(String(128), nullable=False)

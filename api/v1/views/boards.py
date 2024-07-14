@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ objects that handles all default RestFul API actions for Boards"""
-from models.board import Board
+from models.boards import Board
 from models import storage
 from api.v1.views import app_views
 from flask import abort, jsonify, make_response, request

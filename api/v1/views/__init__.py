@@ -9,5 +9,5 @@ from api.v1.views.directors import *
 from api.v1.views.boards import *
 from api.v1.views.meetings import *
 from api.v1.views.staff import *
-from api.v1.views.users import *
+from api.v1.views.user import *
 
